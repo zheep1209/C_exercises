@@ -1,0 +1,12 @@
+http.sslverify=false
+http.proxy=127.0.0.1:7890
+user.name=西行寺岩羊
+user.email=663574252@qq.com
+credential.https://gitee.com.provider=generic
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.https://github.com.proxy=http://127.0.0.1:7890
+https.proxy=127.0.0.1:7890
+https.https://github.com.proxy=https://127.0.0.1:7890
