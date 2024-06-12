@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: Study
-# Configurations: Debug
+# Configurations: Release
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Debug
+CONFIGURATION = Release
 # =============================================================================
 # Include auxiliary files.
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/zheep/CLionProjects/Study/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/zheep/CLionProjects/Study/cmake-build-release/
 # =============================================================================
 # Object build statements for EXECUTABLE target Study
 
@@ -49,171 +49,171 @@ cmake_ninja_workdir = C$:/Users/zheep/CLionProjects/Study/cmake-build-debug/
 
 build cmake_object_order_depends_target_Study: phony || CMakeFiles/Study.dir
 
-build CMakeFiles/Study.dir/Stage_1/20240408/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240408/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240408/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240408/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240408\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240408
 
-build CMakeFiles/Study.dir/Stage_1/20240409/demo2.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240409/demo2.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240409/demo2.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240409/demo2.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240409\demo2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240409
 
-build CMakeFiles/Study.dir/Stage_1/20240530/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240530/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240530/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240530/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240530\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240530
 
-build CMakeFiles/Study.dir/Stage_1/20240530/demo2.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240530/demo2.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240530/demo2.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240530/demo2.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240530\demo2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240530
 
-build CMakeFiles/Study.dir/Stage_1/20240531/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240531/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240531/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240531/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240531\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240531
 
-build CMakeFiles/Study.dir/Stage_1/20240531/demo2.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240531/demo2.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240531/demo2.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240531/demo2.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240531\demo2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240531
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo2.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo2.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo2.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo2.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo3.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo3.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo3.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo3.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo3.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo4.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo4.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo4.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo4.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo4.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo5.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo5.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo5.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo5.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo5.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo6.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo6.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo6.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo6.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo6.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo7.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo7.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo7.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo7.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo7.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo8.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo8.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo8.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo8.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo8.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240601/demo9.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo9.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240601/demo9.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240601/demo9.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240601\demo9.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240601
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo2.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo2.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo2.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo2.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo3.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo3.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo3.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo3.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo3.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo4.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo4.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo4.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo4.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo4.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo5.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo5.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo5.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo5.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo5.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo6.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo6.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo6.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo6.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo6.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo7.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo7.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo7.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo7.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo7.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240602/demo8.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo8.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240602/demo8.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240602/demo8.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240602\demo8.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240602
 
-build CMakeFiles/Study.dir/Stage_1/20240606/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240606/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240606/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240606/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240606\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240606
 
-build CMakeFiles/Study.dir/Stage_1/20240606/demo2.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240606/demo2.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240606/demo2.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240606/demo2.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240606\demo2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240606
 
-build CMakeFiles/Study.dir/Stage_1/20240606/demo3.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240606/demo3.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240606/demo3.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240606/demo3.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240606\demo3.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240606
 
-build CMakeFiles/Study.dir/Stage_1/20240612/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_1/20240612/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_1/20240612/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_1/20240612/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_1\20240612\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_1\20240612
 
-build CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_2/20240612/demo1.c || cmake_object_order_depends_target_Study
+build CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj: C_COMPILER__Study_unscanned_Release C$:/Users/zheep/CLionProjects/Study/Stage_2/20240612/demo1.c || cmake_object_order_depends_target_Study
   DEP_FILE = CMakeFiles\Study.dir\Stage_2\20240612\demo1.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  FLAGS = -O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_2\20240612
 
@@ -225,8 +225,8 @@ build CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj: C_COMPILER__Study_unsca
 #############################################
 # Link the executable Study.exe
 
-build Study.exe: C_EXECUTABLE_LINKER__Study_Debug CMakeFiles/Study.dir/Stage_1/20240408/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240409/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo9.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240612/demo1.c.obj CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj
-  FLAGS = -g
+build Study.exe: C_EXECUTABLE_LINKER__Study_Release CMakeFiles/Study.dir/Stage_1/20240408/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240409/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo9.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240612/demo1.c.obj CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj
+  FLAGS = -O3 -DNDEBUG
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Study.dir
   POST_BUILD = cd .
@@ -240,7 +240,7 @@ build Study.exe: C_EXECUTABLE_LINKER__Study_Debug CMakeFiles/Study.dir/Stage_1/2
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\zheep\CLionProjects\Study\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\zheep\CLionProjects\Study\cmake-build-release && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -251,7 +251,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\zheep\CLionProjects\Study\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\zheep\CLionProjects\Study -BC:\Users\zheep\CLionProjects\Study\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\zheep\CLionProjects\Study\cmake-build-release && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\zheep\CLionProjects\Study -BC:\Users\zheep\CLionProjects\Study\cmake-build-release"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -269,7 +269,7 @@ build Study: phony Study.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/zheep/CLionProjects/Study/cmake-build-debug
+# Folder: C:/Users/zheep/CLionProjects/Study/cmake-build-release
 
 build all: phony Study.exe
 

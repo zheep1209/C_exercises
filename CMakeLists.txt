@@ -28,4 +28,10 @@ add_executable(Study
         Stage_1/20240602/demo5.c
         Stage_1/20240602/demo6.c
         Stage_1/20240602/demo7.c
-        Stage_1/20240602/demo8.c)
+        Stage_1/20240602/demo8.c
+        Stage_1/20240606/demo1.c
+        Stage_1/20240606/demo2.c
+        Stage_1/20240606/demo3.c
+        Stage_1/20240612/demo1.c
+        Stage_2/20240612/demo1.c
+)

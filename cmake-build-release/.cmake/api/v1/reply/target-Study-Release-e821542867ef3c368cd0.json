@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -74,7 +74,12 @@
 				19,
 				20,
 				21,
-				22
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
 			]
 		}
 	],
@@ -84,7 +89,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g",
+				"fragment" : "-O3 -DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -133,7 +138,12 @@
 				19,
 				20,
 				21,
-				22
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
 			]
 		}
 	],
@@ -275,6 +285,36 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Stage_1/20240602/demo8.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Stage_1/20240606/demo1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Stage_1/20240606/demo2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Stage_1/20240606/demo3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Stage_1/20240612/demo1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Stage_2/20240612/demo1.c",
 			"sourceGroupIndex" : 0
 		}
 	],
