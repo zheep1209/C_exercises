@@ -38,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -79,7 +79,9 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28,
+				29
 			]
 		}
 	],
@@ -89,7 +91,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -143,7 +145,9 @@
 				24,
 				25,
 				26,
-				27
+				27,
+				28,
+				29
 			]
 		}
 	],
@@ -315,6 +319,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Stage_2/20240612/demo1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Stage_2/20240614/demo1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sandbox.c",
 			"sourceGroupIndex" : 0
 		}
 	],

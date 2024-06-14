@@ -34,4 +34,6 @@ add_executable(Study
         Stage_1/20240606/demo3.c
         Stage_1/20240612/demo1.c
         Stage_2/20240612/demo1.c
+        Stage_2/20240614/demo1.c
+        sandbox.c
 )

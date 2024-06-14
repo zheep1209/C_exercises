@@ -217,6 +217,18 @@ build CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj: C_COMPILER__Study_unsca
   OBJECT_DIR = CMakeFiles\Study.dir
   OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_2\20240612
 
+build CMakeFiles/Study.dir/Stage_2/20240614/demo1.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/Stage_2/20240614/demo1.c || cmake_object_order_depends_target_Study
+  DEP_FILE = CMakeFiles\Study.dir\Stage_2\20240614\demo1.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Study.dir
+  OBJECT_FILE_DIR = CMakeFiles\Study.dir\Stage_2\20240614
+
+build CMakeFiles/Study.dir/sandbox.c.obj: C_COMPILER__Study_unscanned_Debug C$:/Users/zheep/CLionProjects/Study/sandbox.c || cmake_object_order_depends_target_Study
+  DEP_FILE = CMakeFiles\Study.dir\sandbox.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Study.dir
+  OBJECT_FILE_DIR = CMakeFiles\Study.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Study
@@ -225,7 +237,7 @@ build CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj: C_COMPILER__Study_unsca
 #############################################
 # Link the executable Study.exe
 
-build Study.exe: C_EXECUTABLE_LINKER__Study_Debug CMakeFiles/Study.dir/Stage_1/20240408/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240409/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo9.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240612/demo1.c.obj CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj
+build Study.exe: C_EXECUTABLE_LINKER__Study_Debug CMakeFiles/Study.dir/Stage_1/20240408/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240409/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240530/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240531/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240601/demo9.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo4.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo5.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo6.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo7.c.obj CMakeFiles/Study.dir/Stage_1/20240602/demo8.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo1.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo2.c.obj CMakeFiles/Study.dir/Stage_1/20240606/demo3.c.obj CMakeFiles/Study.dir/Stage_1/20240612/demo1.c.obj CMakeFiles/Study.dir/Stage_2/20240612/demo1.c.obj CMakeFiles/Study.dir/Stage_2/20240614/demo1.c.obj CMakeFiles/Study.dir/sandbox.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Study.dir
