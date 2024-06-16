@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.27"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Study::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Study-Release-a3821325f007b70b9d4f.json",
+					"jsonFile" : "target-Study-Debug-c3188cfcbd6c1ec3a3c7.json",
 					"name" : "Study",
 					"projectIndex" : 0
 				}
@@ -49,7 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/zheep/CLionProjects/Study/cmake-build-release",
+		"build" : "C:/Users/zheep/CLionProjects/Study/cmake-build-debug",
 		"source" : "C:/Users/zheep/CLionProjects/Study"
 	},
 	"version" : 

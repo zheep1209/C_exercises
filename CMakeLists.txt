@@ -36,4 +36,5 @@ add_executable(Study
         Stage_2/20240612/demo1.c
         Stage_2/20240614/demo1.c
         sandbox.c
+        Stage_2/20240616/linked_lists.c
 )
